@@ -31,5 +31,5 @@ Turma: II12A
 Nº 33
 
 1.  Clone ou baixe este repositório.
-2.  Abra a pasta `Interface_Carteira_Digital`.
-3.  Abra qualquer arquivo `telaN.html` (e.g., `tela1.html`) diretamente no seu navegador.
+2.  Abra a pasta `Exercícios_HTML_CSS`.
+3.  Abra qualquer arquivo `tela_Login.html` (e.g., `tela_cadastro.html`) diretamente no seu navegador.
