@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - WalletApp</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="logo">WalletApp</div>
+            <nav>
+                <ul>
+                    <li class="active"><i class="fas fa-home"></i> Dashboard</li>
+                    <li><i class="fas fa-exchange-alt"></i> Transações</li>
+                    <li><i class="fas fa-user-circle"></i> Perfil</li>
+                    <li><i class="fas fa-cog"></i> Configurações</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+                <div class="user-info">
+                    <span>Olá, **João Silva**</span>
+                    <i class="fas fa-bell"></i>
+                </div>
+            </header>
+
+            <section class="overview-cards">
+                <div class="card balance-card">
+                    <h2>Saldo Disponível</h2>
+                    <p class="balance">R$ 1.543,89</p>
+                    <small>Atualizado em 08 Nov</small>
+                </div>
+                <div class="card action-card send">
+                    <i class="fas fa-arrow-up"></i>
+                    <h3>Enviar Dinheiro</h3>
+                </div>
+                <div class="card action-card receive">
+                    <i class="fas fa-arrow-down"></i>
+                    <h3>Receber Dinheiro</h3>
+                </div>
+            </section>
+
+            <section class="recent-transactions">
+                <h2>Transações Recentes</h2>
+                <ul class="transaction-list">
+                    <li class="transaction out">
+                        <span>Netflix</span>
+                        <span class="value">- R$ 45,90</span>
+                    </li>
+                    <li class="transaction in">
+                        <span>Transferência Recebida</span>
+                        <span class="value">+ R$ 500,00</span>
+                    </li>
+                    <li class="transaction out">
+                        <span>Cafeteria Central</span>
+                        <span class="value">- R$ 18,50</span>
+                    </li>
+                </ul>
+                <a href="#">Ver todas as transações</a>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
